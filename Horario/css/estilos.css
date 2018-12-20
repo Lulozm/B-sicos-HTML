@@ -1,0 +1,35 @@
+*{ 
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+table{
+	margin: 20px auto;
+	border: 10px solid #010712;
+	font-size: 3rem;
+	border-collapse: collapse;
+	text-align: center;
+}
+td{
+	border: 5px solid black;
+	color: white;
+}
+th{
+	border: 5px solid black;
+	width: 16%;
+	padding: 4px;
+	background-color: #040072;
+	color: white;
+}
+
+
+tr:nth-child(3n-1){
+	background-color: #FF64F0;
+}
+tr:nth-child(3n){
+	background-color: #6964FF;
+}
+tr:nth-child(4n){
+	background-color: #8900FF;
+}
