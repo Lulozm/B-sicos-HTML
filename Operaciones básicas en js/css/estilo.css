@@ -1,0 +1,60 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+body{
+	text-align:center;
+}
+
+
+.contenedor{
+	width:300px;
+	border:solid 1px #00f;
+	padding:10px;
+	margin:10px auto;
+	
+}
+
+
+#resultado{
+	width:400px;
+	border:solid 1px #8B6914;
+	padding:10px;
+	margin:10px auto;
+}
+
+select{
+	display:block;
+	margin:10px auto;
+}
+
+
+input[type="text"]{
+	width:80%;
+	padding:10px;
+	margin-bottom:10px;
+}
+
+
+input[type="button"], a ,span{
+	width:30%;
+	padding:5px;
+	margin-bottom:10px;
+	display:block;
+	background-color:#A52A2A;
+	color:#fff;
+	cursor:pointer;
+	border:none;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:normal;
+	margin:0 auto;
+	position:relative;
+}
+
+
+input[type="button"]:active, a:active ,span:active{
+top:1px;
+}
